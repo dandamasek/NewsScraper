@@ -17,7 +17,7 @@ class MyGUI(Data):
         #self.root.geometry("700x400")
         self.root.title("Finding articles")
 
-        self.label = tk.Label(self.root, text="Keywords for finding:",font=('Arial',14))
+        self.label = tk.Label(self.root, text="Keywords for finding: (separate them with: , )",font=('Arial',14))
         self.label.pack(padx=10,pady=10)
 
         self.textbox = tk.Text(self.root,height=3,font=('Arial',10))
