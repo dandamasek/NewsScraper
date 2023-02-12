@@ -1,6 +1,9 @@
+from ctypes import resize
+from ctypes.wintypes import SIZE
 from email import message
 import tkinter as tk
-from tkinter import Variable, messagebox
+from tkinter import BUTT, ttk
+from tkinter import Canvas, LabelFrame, Variable, messagebox
 from bs4 import BeautifulSoup
 import requests
 import re
@@ -12,9 +15,10 @@ class MyGUI(Data):
     
     def __init__(self):
         #later do dynamic not like this
-      
+        self.x = 900
+        self.y = 500
         self.root = tk.Tk()
-        #self.root.geometry("700x400")
+        self.root.geometry("%dx%d" % (self.x,self.y))
         self.root.title("Finding articles")
 
         self.label = tk.Label(self.root, text="Keywords for finding: (separate them with: , )",font=('Arial',14))
@@ -73,15 +77,31 @@ class MyGUI(Data):
         self.btn2.grid(row=0,column=1, sticky=tk.W+tk.E)
         self.buttonframe.pack(fill='y')
 
-        self.label2 = tk.Label(self.root, text="Matching articles by keywords will by displayed in console",font=('Arial',14))
+        self.label2 = tk.Label(self.root, text="Matching articles by keywords",font=('Arial',14))
         self.label2.pack(padx=30,pady=10)
 
 
+        #scrollbar with results
+        
+        self.wrapper = LabelFrame(self.root)
+        self.mycanvas = Canvas(self.wrapper)
+        self.mycanvas.pack(side="left",fill="both",expand="yes")
+
+        self.scrollbar = ttk.Scrollbar(self.wrapper, orient="vertical", command=self.mycanvas.yview)
+        self.scrollbar.pack(side="right",fill="y")
+        
+        self.mycanvas.configure(yscrollcommand=self.scrollbar.set)
+
+        self.myFrame = tk.Frame(self.mycanvas)
+
+        self.mycanvas.create_window((0,0),window=self.myFrame,anchor="nw")
+        self.mycanvas.bind('<Configure>', lambda e: self.mycanvas.configure(scrollregion = self.mycanvas.bbox('all'))) 
+        self.wrapper.pack(fill="both", expand="yes",padx=10,pady=10)
+
+        self.keywordlabel = tk.Label(self.myFrame,text="ssss")
+        self.keywordlabel.pack()
+
         self.root.protocol("WM_DELETE_WINDOW",self.on_closing)
-
-        self.news_label = tk.Label(self.root, text='')
-        self.news_label.pack(pady=10)
-
         self.root.mainloop()
 
     #update of keywords in textbox
@@ -220,12 +240,35 @@ class MyGUI(Data):
         else:
             self.deleteNoNeedNews('REUTERS ')
 
+    def resize1(self):
+        self.root.geometry(self.root.si)
+
+    def resize2(self):
+        self.root.geometry("900x500")
 
     def news_scraper_trigger(self):
+       #self.resize1()
         self.KeywordsFromBox()
         self.cleanData()
         self.updateData()
         self.news_scraper()
+        
+       
+        #tk.Label(self.myFrame,text = '\n------- Total mentions of keywords in news: '+str(len(self.keyword_data_from_news))).pack()
+        keytext = ""
+        for index, i in enumerate(self.keyword_data_from_news):
+            keytext += str(index+1)+": "+i[0]+" "+i[1]+"\n"
+            #tk.Label(self.myFrame,text = keytext, font=("Arial",10),).pack()
+    
+        self.keywordlabel.config(text=keytext)
+
+        #adhoc
+        self.x += 1;
+        self.y += 1;
+        self.root.geometry("%dx%d" % (self.x,self.y))
+        
+
+        
 
     def on_closing(self):
         if messagebox.askyesno(title="Alert",message = "Are you sure?"):
