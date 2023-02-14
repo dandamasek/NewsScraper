@@ -1,158 +1,57 @@
-FOX |-| https://video.foxnews.com/v/6320385260112/ |-| Police say 3 MSU students killed, shooter identified |-| 
-FOX |-| https://video.foxnews.com/v/6320385816112/ |-| Active shooter training saved lives in MSU shooting: Ted Williams |-| 
-FOX |-| https://video.foxnews.com/v/6320383034112/ |-| Tomi Lahren slams Pete Buttigieg for 'completely unacceptable' train derailment response |-| 
-FOX |-| https://www.foxnews.com/video/6320368608112 |-| 'Gutfeld!' on whether the unidentified aerial objects are UFOs |-| 
-FOX |-| https://www.foxnews.com/video/6320370452112 |-| Michigan State University shooter reportedly found dead |-| 
-FOX |-| https://www.foxnews.com/video/6320366521112 |-| Sen. Tom Cotton: The American people deserve to hear from the president, not mouthpieces |-| 
-FOX |-| https://www.foxnews.com/video/6320364520112 |-| John Ratcliffe: This was an unprecedented national security breach |-| 
-FOX |-| https://www.foxnews.com/video/6320355916112 |-| JD Vance: We are ruled by unserious people who are worried about fake problems |-| 
-FOX |-| https://www.foxnews.com/video/6320367140112 |-| Brianne Dressen: The COVID vaccines are held to a totally different standard |-| 
-FOX |-| https://www.foxnews.com/video/6320361222112 |-| Mark Esper: It's absolutely a major breach |-| 
-FOX |-| https://www.foxnews.com/live-news/michigan-state-shooting-updates-february-14-2023 |-| Officials reveal all shooting victims were MSU students, release name of gunman |-| 
-FOX |-| https://www.foxnews.com/world/china-calls-us-trigger-happy-defending-airspace-objects-shot-down |-| China slams US efforts to protect airspace from surveillance aircraft |-| 
-FOX |-| https://www.foxnews.com/politics/californias-grid-faces-collapse-leaders-push-renewables-electric-vehicles-experts-say |-| California's grid faces collapse as leaders push renewables |-| 
-FOX |-| https://www.foxnews.com/media/fingerprints-unvaccinated-nyc-teachers-reportedly-sent-fbi-problem-codes-invasion-privacy |-| Fingerprints of unvaccinated NYC teachers reportedly flagged, sent to FBI |-| 
-FOX |-| https://www.foxnews.com/sports/cheerleader-ejected-court-altercation-college-basketball-player |-| Cheerleader ejected from college game after altercation with player |-| 
-FOX |-| https://www.foxnews.com/politics/nikki-haley-announces-presidential-campaign-time-new-generation-leadership |-| Nikki Haley announces decision on 2024 presidential bid |-| 
-FOX |-| https://www.foxbusiness.com/economy/consumer-prices-inflation-rose-january |-| Americans aren't out of the woods with inflation yet, new index shows |-| 
-FOX |-| https://www.foxnews.com/us/michigan-state-university-shooting-suspect-43-year-old-black-male-no-ties-university |-| What we know about the alleged gunman who killed 3 people before ending his own life |-| 
-FOX |-| https://www.foxnews.com/politics/hunter-biden-obama-ambassador-chinese-businessmen-very-good-relationship |-| Hunter's dealings with Obama's Chinese ambassador revealed in emails |-| 
-FOX |-| https://www.foxnews.com/politics/photo-goes-viral-kari-lake-refusing-stand-during-black-national-anthem-super-bowl |-| Kari Lake's response to Black national anthem goes viral, sparks fierce debate |-| 
-FOX |-| https://www.foxnews.com/video/6320385871112 |-| Former attorney Alex Murdaugh's double murder trial |-| 
-FOX |-| https://www.foxnews.com/sports/chiefs-star-chris-jones-interaction-roger-goodell-raises-eyebrows-super-bowl-celebration |-| Chiefs star Chris Jones' interaction with Roger Goodell raises eyebrows during Super Bowl celebration |-| 
-FOX |-| https://www.foxnews.com/us/michigan-state-shooting-doctor-breaks-down-tears-describing-response |-| Michigan State shooting: Doctor breaks down in tears describing response |-| 
-FOX |-| https://www.foxnews.com/us/alex-murdaugh-son-paul-survived-first-gunshot-wound-expert-says |-| Pathologist testifies Maggie Murdaugh was in 'a lot of pain' before she died |-| 
-FOX |-| https://www.foxnews.com/health/face-masks-difference-spread-covid-scientific-review |-| Scientific review confirms doubters' stance on masks and COVID-19 |-| 
-FOX |-| https://www.foxnews.com/media/outrage-james-clapper-other-hunter-biden-laptop-skeptics-suddenly-speak-out-against-media-fraud |-| Critics disgusted as Clapper reverses on Biden laptop being Russian disinformation |-| 
-FOX |-| https://www.foxnews.com/media/palestine-ohio-family-moves-home-sudden-headaches-foul-smell-spark-eco-disaster-fears |-| Family moves out of home as sudden headaches and foul 'smell' spark eco-disaster fears |-| 
-FOX |-| https://www.foxnews.com/opinion/call-biden-democrats-agenda-exactly-what-it-is-just-plain-crazy |-| Dems have veered so far left that Americans only have one word for it |-| 
-FOX |-| https://www.foxnews.com/entertainment/marie-osmond-miracle-remarried-first-husband-appreciate-each-other-more |-| Marie Osmond says it 'truly is a miracle' she remarried first husband |-| 
-FOX |-| https://www.foxnews.com/media/former-fighter-pilot-ufos-more-common-people-think-were-seeing-them-radars |-| Former fighter pilot says aerial objects more common than people think |-| 
-FOX |-| https://www.foxnews.com/sports/tom-brady-happy-hes-retired-dropping-underwear-selfie |-| Tom Brady happy he's retired after dropping underwear selfie |-| 
-FOX |-| https://www.foxnews.com/us/body-utah-teen-recovered-fell-through-ice-reservoir |-| Body of Utah teen recovered after he fell through ice at reservoir |-| 
-FOX |-| https://www.foxnews.com/politics/exclusive-drugs-flow-across-border-new-bill-slash-traffickers-government-benefits |-| GOP senator aims to hit cartel members where it hurts |-| 
-FOX |-| https://www.foxnews.com/tech/browser-exposed-security-risk |-| How your browser could be exposed to a security risk |-| 
-FOX |-| https://www.foxnews.com/media/roseanne-barr-untold-story-brash-bold-comedian-who-refuses-canceled |-| Who is Roseanne Barr? The untold story of the brash, bold comedian who refuses to be canceled |-| 
-FOX |-| https://www.foxnews.com/us/woman-dies-after-being-run-over-by-forklift-at-florida-motel-authorities-say |-| Woman dies after being run over by forklift at motel |-| 
-FOX |-| https://www.foxbusiness.com/economy/princeton-economist-warns-bidens-tax-stock-buybacks-401k |-| Economist warns Biden’s tax on stock buybacks will hurt your 401(k) |-| 
-FOX |-| https://www.foxnews.com/entertainment/will-smiths-oscar-slap-given-inadequate-response-academy-president-says |-| Will Smith's Oscar slap was given an 'inadequate' response, Academy president says |-| 
-FOX |-| https://www.foxnews.com/us/ohio-residents-fear-train-derailment-poisoned-air-ground-report-animals-dying |-| Residents fear train derailment poisoned air, ground, report animals dying |-| 
-FOX |-| https://www.foxnews.com/us/us-military-first-shot-unknown-octagonal-object-lake-huron-missed |-| F-16 failed to take down mystery object flying over US with first missile |-| 
-FOX |-| https://www.foxnews.com/opinion/california-vs-florida-covid-comparison |-| Ron DeSantis' Florida beats Gavin Newsom's California - again |-| 
-FOX |-| https://www.foxnews.com/media/outrage-twitter-baltimore-reveals-zero-students-proficient-math-across-23-schools-failure |-| Outrage on Twitter after Baltimore reveals zero students proficient in math across 23 schools |-| 
-FOX |-| https://www.foxnews.com/media/twitter-users-slam-buttigieg-silence-toxic-train-calls-diversity-construction |-| Buttigieg torched for response to toxic train derailment |-| 
-FOX |-| https://www.foxnews.com/sports/patrick-mahomes-quality-family-time-disneyland-winning-super-bowl-lvii |-| Chiefs' Mahomes spends quality family time at Disneyland day after Super Bowl win |-| 
-FOX |-| https://www.foxnews.com/world/reporters-notebook-a-week-up-close-horrors-and-heroics-the-turkish-earthquake-zone |-| Reporter's Notebook: A week of up-close horrors and heroics in the Turkish earthquake zone |-| 
-FOX |-| https://www.foxnews.com/politics/he-gets-us-responds-aocs-attack-christian-super-bowl-ads |-| AOC hit with firm rebuttal from Christian group behind Jesus Super Bowl ads |-| 
-FOX |-| https://www.foxnews.com/auto/electric-dodge-muscle-car-spotted-fast-x-trailer |-| Electric Dodge muscle car spotted in 'Fast X' trailer |-| 
-FOX |-| https://www.foxnews.com/lifestyle/valentines-day-brain-teaser-can-find-3-tiny-hearts-hidden-rose-garden |-| Valentine's Day brain teaser: Can you find 3 tiny hearts hidden in this rose garden? |-| 
-FOX |-| https://www.foxnews.com/lifestyle/this-day-history-feb-14-270-ad-saint-valentine-beaten-beheaded-emperor-marriage-ban |-| On this day in history, Feb. 14, 270 AD, Saint Valentine beaten, beheaded for defying emperor's marriage ban |-| 
-FOX |-| https://www.foxbusiness.com/markets/single-stock-etfs-a-good-idea |-| Are single-stock ETFs a good idea? |-| 
-FOX |-| https://www.foxnews.com/lifestyle/valentines-day-quiz-how-well-know-facts-annual-day-love |-| Valentine's Day quiz! How well do you know these facts about the annual day of love? |-| 
-FOX |-| https://www.foxnews.com/media/teenager-recalls-harrowing-ordeal-rescued-83-year-old-man-dog-icy-iowa-lake |-| Teenager recalls harrowing ordeal after he rescues 83-year-old man and his dog from icy Iowa lake |-| 
-FOX |-| https://www.foxnews.com/sports/eagles-players-wife-blasts-chiefs-super-bowl-lvii-celebration-after-weakest-holding-call |-| Eagles player's wife blasts Chiefs' Super Bowl LVII celebration after 'weakest holding call' |-| 
-FOX |-| https://www.foxnews.com/tech/5-phone-apps-offer-free-long-distance-calls-anywhere-anytime |-| 5 phone apps that offer free long-distance calls anywhere, anytime |-| 
-FOX |-| https://www.foxnews.com/tech/apple-owe-395-macbook-keyboard-woes |-| Apple could owe you up to $395 for MacBook keyboard woes |-| 
-FOX |-| https://www.foxnews.com/lifestyle/who-st-valentine-how-related-valentines-day |-| Who is St. Valentine and how is he related to Valentine's Day? |-| 
-FOX |-| https://www.foxbusiness.com/personal-finance/retirees-lost-savings-2022 |-| Retirees lost 10% of their savings in 2022, survey says |-| 
-FOX |-| https://www.foxnews.com/opinion/valentines-day-people-media-love-hate |-| This Valentine's Day, here are 5 people media love to hate |-| 
-FOX |-| https://www.foxnews.com/opinion/flying-intruders-threat-china-scary-biden-wont-talk |-| Flying intruder threat from China is scary, but Biden won't talk about it |-| 
-FOX |-| https://www.foxnews.com/opinion/roseanne-is-back-not-before-cancel-culture-freaked-about-one-tweet-while-giving-most-hollywood-pass |-| Roseanne is back, but not before cancel culture freaked about one tweet while giving most of Hollywood a pass |-| 
-FOX |-| https://www.foxnews.com/us/crisis-kensington-drug-overdoses-kill-12-pennsylvanians-day-watch-one-mans-fight-help-addicts |-| CRISIS IN KENSINGTON: Drug overdoses kill 12 Pennsylvanians a day. Watch one man's fight to help addicts |-| 
-FOX |-| https://www.foxnews.com/media/philadelphias-open-air-drug-market-third-world-country-former-resident-addict-says |-| Philadelphia's open-air drug market is 'a third-world country,' former resident and addict says |-| 
-FOX |-| https://www.foxnews.com/sports/eagles-fans-chant-chiefs-climb-poles-teams-narrow-super-bowl-lvii-loss |-| Eagles fans chant 'f--- the Chiefs,' climb poles after team's narrow Super Bowl LVII loss |-| 
-FOX |-| https://www.foxnews.com/us/washington-school-district-considers-closures-student-enrollment-plummets |-| Washington school district considers closures as student enrollment plummets |-| 
-FOX |-| https://www.foxnews.com/us/bostons-mayor-files-plan-address-citys-skyrocketing-rent |-| Boston's mayor files plan to address city's skyrocketing rent |-| 
-FOX |-| https://www.foxnews.com/politics/californias-grid-faces-collapse-leaders-push-renewables-electric-vehicles-experts-say |-| California's grid faces collapse as leaders push renewables, electric vehicles, experts say |-| 
-FOX |-| https://www.foxnews.com/opinion/california-vs-florida-covid-comparison |-| DeSantis's Florida beats Newsom's California, again. Here's the comparison |-| 
-FOX |-| https://www.foxnews.com/us/minnesota-officials-urge-ammo-factory-workers-test-kids-lead-exposure |-| Minnesota officials urge ammo factory workers to test kids for lead exposure |-| 
-FOX |-| https://www.foxnews.com/politics/third-dead-whale-found-miles-offshore-wind-farm |-| Third dead whale found miles from offshore wind farm in less than a week |-| 
-FOX |-| https://www.foxnews.com/media/portland-residents-warns-addicts-using-food-stamps-buy-fentanyl-zombies-streets |-| Portland resident warns addicts are using food stamps to buy fentanyl: 'Zombies on our streets' |-| 
-FOX |-| https://www.foxnews.com/media/former-fighter-pilot-ufos-more-common-people-think-were-seeing-them-radars |-| Former fighter pilot says UFOs more common than people think: 'We were seeing them on our radars’ |-| 
-FOX |-| https://www.foxnews.com/media/fingerprints-unvaccinated-nyc-teachers-reportedly-sent-fbi-problem-codes-invasion-privacy |-| Fingerprints of unvaccinated NYC teachers reportedly sent to FBI with 'problem codes': 'Invasion of privacy' |-| 
-FOX |-| https://www.foxnews.com/media/palestine-ohio-family-moves-home-sudden-headaches-foul-smell-spark-eco-disaster-fears |-| Palestine, Ohio, family moves out of home as sudden headaches and foul 'smell' spark eco-disaster fears |-| 
-FOX |-| https://www.foxnews.com/opinion/call-biden-democrats-agenda-exactly-what-it-is-just-plain-crazy |-| Call Biden, Democrats' agenda exactly what it is: just plain crazy |-| 
-FOX |-| https://www.foxnews.com/politics/south-dakota-governor-kristi-noem-signs-bill-banning-some-gender-medical-surgical-procedures-minors |-| South Dakota Gov. Kristi Noem signs bill banning some gender-related medical, surgical procedures for minors |-| 
-FOX |-| https://www.foxnews.com/politics/house-gop-demands-answers-pentagon-leaked-records-jennifer-ruth-green-sexual-assault |-| House GOP demands answers from Pentagon on leaked records of Jennifer-Ruth Green's sexual assault |-| 
-FOX |-| https://www.foxnews.com/politics/trump-haley-desantis-pence-others-how-large-gop-2024-field-will-see |-| Trump's in, Haley's getting in – How about DeSantis? Pence? Others? How large a GOP 2024 field will we see? |-| 
-FOX |-| https://www.foxnews.com/politics/former-gop-congressional-candidate-locked-twitter-gender-spectrum-meme-this-is-like-1984 |-| Former GOP congressional candidate locked out of Twitter for gender spectrum meme: 'This is like 1984' |-| 
-FOX |-| https://www.foxnews.com/politics/lawmakers-target-boyfriend-loophole-latest-gun-control-push |-| Lawmakers target ‘boyfriend loophole’ in latest gun control push |-| 
-FOX |-| https://www.foxnews.com/lifestyle/terrific-tampa-favorite-spots-politics-patriots-ig-celebrity-rogan-ohandley |-| Terrific Tampa: 5 favorite spots from 'politics for patriots' IG celebrity Rogan O'Handley |-| 
-FOX |-| https://www.foxnews.com/opinion/combating-weaponization-of-the-government-shouldnt-be-a-partisan-issue |-| Weaponizing of government must end, and Republicans, Dems should work together to make it happen |-| 
-FOX |-| https://www.foxnews.com/world/china-calls-us-trigger-happy-defending-airspace-objects-shot-down |-| China calls US 'trigger-happy' on defending airspace after 'objects' shot down |-| 
-FOX |-| https://www.foxnews.com/world/key-witness-testifies-trial-former-mexican-public-safety-chief-genaro-garcia |-| Key witness testifies in trial for former Mexican public safety chief Genaro García Luna |-| 
-FOX |-| https://www.foxnews.com/world/canadian-air-force-deploys-multiple-aircraft-search-flying-objects-debris-complex-alpine-terrain |-| Canadian Air Force deploys multiple aircraft to search for flying object's debris in 'complex alpine terrain' |-| 
-FOX |-| https://www.foxnews.com/world/chinese-surveillance-balloons-detected-middle-east-us-air-force-says |-| Chinese surveillance balloons have been detected over Middle East, US Air Force says |-| 
-FOX |-| https://www.foxnews.com/opinion/greg-gutfeld-locking-up-deodorant-instead-people-stealing |-| GREG GUTFELD: We're locking up deodorant instead of the people stealing it |-| 
-FOX |-| https://www.foxnews.com/opinion/tucker-carlson-food-water-energy-infrastructure-degraded |-| TUCKER CARLSON: Food, water, energy and infrastructure are being degraded |-| 
-FOX |-| https://www.foxnews.com/health/face-masks-difference-spread-covid-scientific-review |-| Face masks made ‘little to no difference’ in preventing spread of COVID, scientific review finds |-| 
-FOX |-| https://www.foxnews.com/health/could-cutting-calories-slow-pace-aging-possibly-new-study |-| Could cutting calories slow the pace of aging? Possibly, says new study |-| 
-FOX |-| https://www.foxnews.com/health/women-long-covid-healthy-habits-lower-risk |-| Women more likely to suffer from ‘long COVID,’ but healthy habits can lower the risk |-| 
-FOX |-| https://www.foxnews.com/health/getting-sepsis-hospital-red-flag-future-heart-attacks |-| Getting sepsis in the hospital is a red flag for future heart attacks, study finds |-| 
-FOX |-| https://www.foxnews.com/us/nyc-u-haul-rampage-suspect-violent-past-yet-be-charged-attack-killed-1-injured-8-others |-| NYC U-Haul rampage suspect with violent past yet to be charged in attack that killed 1, injured 8 others |-| 
-FOX |-| https://www.foxnews.com/us/woman-dies-after-being-run-over-by-forklift-at-florida-motel-authorities-say |-| Woman dies after being run over by forklift at Florida motel, authorities say |-| 
-FOX |-| https://www.foxnews.com/lifestyle/send-valentines-children-hospitals-nursing-homes-shelters |-| How to send Valentines to kids in hospitals, nursing home residents and more |-| 
-FOX |-| https://www.foxnews.com/lifestyle/memory-wwii-veteran-lester-tanner-we-all-jewish |-| In memory of World War II veteran Lester Tanner: 'We are all Jewish' |-| 
-FOX |-| https://www.foxnews.com/auto/first-ford-mustang-auctioned-charity-multi-million-dollar-event |-| The first 2024 Ford Mustang will be auctioned for charity at multi-million dollar event |-| 
-FOX |-| https://www.foxnews.com/auto/first-gmc-hummer-ev-suv-millions-charity |-| The first GMC Hummer EV SUV could raise millions for charity |-| 
-FOX |-| https://www.foxnews.com/politics/first-black-officer-lead-special-forces-team-combat-receive-medal-honor-biden |-| First Black officer to lead a Special Forces team in combat to receive the Medal of Honor from Biden |-| 
-FOX |-| https://www.foxnews.com/us/us-military-first-shot-unknown-octagonal-object-lake-huron-missed |-| US military's first shot at unknown octagonal object over Lake Huron missed, officials say |-| 
-FOX |-| https://www.foxnews.com/us/florida-driver-rescued-from-fiery-crash-by-flagler-sheriff-deputies-good-samaritans |-| Florida driver rescued from fiery crash by Flagler sheriff's deputies, good Samaritans |-| 
-FOX |-| https://www.foxnews.com/entertainment/robin-wright-reveals-why-spotted-ex-sean-penn-recent-reunion-photos |-| Robin Wright reveals why she was spotted with ex Sean Penn in recent reunion photos |-| 
-FOX |-| https://www.foxnews.com/entertainment/marie-osmond-miracle-remarried-first-husband-appreciate-each-other-more |-| Marie Osmond 'miracle' she remarried first husband: 'We appreciate each other more than ever' |-| 
-FOX |-| https://www.foxnews.com/entertainment/yellowstone-star-kevin-costner-shares-unboxing-video-golden-globe-award |-| 'Yellowstone' star Kevin Costner shares unboxing video of Golden Globe award: 'Thank you to everyone' |-| 
-FOX |-| https://www.foxnews.com/entertainment/robert-downey-jr-honors-jon-favreau-walk-of-fame-ceremony |-| Robert Downey Jr honors Jon Favreau at Walk of Fame ceremony: He knows ‘if we're not laughing, we're dying' |-| 
-FOX |-| https://www.foxnews.com/sports/nets-ben-simmons-faces-ridicule-passing-up-open-lay-up-borderline-unplayable |-| Nets' Ben Simmons faces ridicule after passing up open lay up: 'Borderline unplayable' |-| 
-FOX |-| https://www.foxnews.com/sports/colts-hire-shane-steichen-head-coach |-| Colts hire Shane Steichen as head coach |-| 
-FOX |-| https://www.foxnews.com/sports/tom-brady-happy-hes-retired-dropping-underwear-selfie |-| Tom Brady happy he's retired after dropping underwear selfie: 'I'd have gotten a lot of s---' |-| 
-FOX |-| https://www.foxnews.com/sports/eagles-haason-reddick-rips-super-bowl-lvii-field-conditions-you-would-think-it-would-be-better |-| Eagles' Haason Reddick rips Super Bowl LVII field conditions: 'You would think it would be better' |-| 
-FOX |-| https://www.foxnews.com/us/portlands-police-bureau-reviewing-officers-force-car-theft-case |-| Portland's Police Bureau is reviewing officer's use of force in car theft case |-| 
-FOX |-| https://www.foxnews.com/lifestyle/nebraska-girl-5-lost-dad-asks-grandpa-accompany-daddy-daughter-valentines-day-dance |-| Nebraska girl, 5, asks her grandpa to accompany her to the daddy-daughter Valentine's Day dance |-| 
-FOX |-| https://www.foxnews.com/lifestyle/delta-passenger-says-flight-attendant-told-wife-dont-look-me-stupid-face |-| Delta passenger says flight attendant told his wife, 'Don't look at me with that stupid face' |-| 
-FOX |-| https://www.foxnews.com/opinion/disney-world-destination-what-found-could-end-beloved-american-company |-| Disney World was our destination. What I found could be the end for a beloved American company |-| 
-FOX |-| https://www.foxnews.com/lifestyle/america-celebrated-kirk-cameron-coffey-anderson-sing-national-anthem-georgia-crowds |-| America is celebrated as Kirk Cameron and Coffey Anderson sing national anthem with Georgia crowds |-| 
-FOX |-| https://www.foxbusiness.com/personal-finance/americans-brace-recession-reduce-debt |-| Americans prepare for a recession by paying off debt, survey says |-| 
-FOX |-| https://www.foxbusiness.com/features/valentines-day-businesses-companies-profit-love |-| Companies that profit the most from love around Valentine's Day |-| 
-FOX |-| https://www.foxbusiness.com/personal-finance/sell-ebay-paid-venmo-probably-owe-irs-taxes |-| Sell on eBay or get paid on Venmo? You probably owe the IRS taxes |-| 
-FOX |-| https://www.foxnews.com/tech/pet-problems-solved-guide-dealing-difficult-dogs-cats |-| Pet problems solved: A guide to dealing with difficult dogs and cats |-| 
-FOX |-| https://www.foxnews.com/tech/avoid-the-worst-dating-app-scammers |-| How to avoid the worst dating app scammers |-| 
-FOX |-| https://www.foxbusiness.com/markets/ford-cutting-3800-european-jobs-ev-push |-| Ford cutting 3,800 European jobs in EV push |-| 
-FOX |-| https://www.foxbusiness.com/economy/princeton-economist-warns-bidens-tax-stock-buybacks-401k |-| Princeton economist warns Biden’s tax on stock buybacks will hurt your 401(k) |-| 
-FOX |-| https://www.foxbusiness.com/economy/consumer-prices-inflation-rose-january |-| Inflation rose 6.4% in January |-| 
-FOX |-| https://www.foxbusiness.com/technology/t-mobile-outage-hits-users-across-us |-| T-Mobile outage hits users across US |-| 
-FOX |-| https://www.foxnews.com/entertainment/comedian-nate-bargatze-clean-christian-comic-over-20-years |-| Comedian Nate Bargatze talks being clean Christian comic for over 20 years |-| 
-FOX |-| https://www.foxnews.com/opinion/chiefs-vs-eagles-super-bowl-lvii-is-it-ok-pray-your-team-win |-| Chiefs vs. Eagles in Super Bowl LVII: Is it OK to pray for your team to win? |-| 
-FOX |-| https://www.foxnews.com/auto/cleaner-sweep-teslas-new-windshield-wiper-patent |-| Cleaner sweep? Tesla's new windshield wiper tech gets a patent |-| 
-FOX |-| https://www.foxnews.com/us/wife-california-doctor-drove-family-cliff-tesla-doesnt-want-prosecuted-reports |-| Wife of California doctor who drove family off cliff in Tesla doesn't want him prosecuted: reports |-| 
-FOX |-| https://www.foxnews.com/auto/traffic-report-kias-binky-dad-super-bowl-car-commercial |-| Traffic report: Kia's Binky Dad won the Super Bowl car commercial game |-| 
-FOX |-| https://www.foxnews.com/auto/vin-diesel-self-driving-car-company-boss-bad-guy-fast-x-sequel |-| Vin Diesel says a self-driving car company boss is the bad guy in 'Fast X' sequel |-| 
-FOX |-| https://www.foxnews.com/lifestyle/virginia-fisherman-reels-rare-largemouth-bass-river-havent-seen-anything-like-that |-| Virginia fisherman reels in rare largemouth bass from river: 'Haven't seen anything like that' |-| 
-FOX |-| https://www.foxnews.com/us/woman-charged-after-video-of-family-being-harassed-goes-viral |-| Woman charged after video of family being harassed goes viral |-| 
-FOX |-| https://www.foxnews.com/us/romance-author-missing-days-leading-police-chase-grand-teton-national-park-cops |-| Romance author missing days after leading police on chase through Grand Teton National Park: Cops |-| 
-FOX |-| https://www.foxnews.com/entertainment/paula-abdul-life-changing-tip-kept-fit-decades |-| Paula Abdul shares the life-changing tip that has kept her fit for decades |-| 
-FOX |-| https://www.foxnews.com/entertainment/super-bowl-lvii-celeb-fans-brad-pitt-bradley-cooper-miranda-lambert-rooting-against-each-other |-| Super Bowl LVII has celeb fans Brad Pitt, Bradley Cooper and Miranda Lambert rooting against each other |-| 
-FOX |-| https://www.foxnews.com/entertainment/chris-stapleton-sings-national-anthem-country-star-small-town-kentucky-beginnings-americas-biggest-stage |-| Chris Stapleton sings national anthem: Small-town Kentucky beginnings to America’s biggest stage |-| 
-FOX |-| https://www.foxnews.com/media/macy-gray-worries-about-backlash-artists-speak-politics-cant-say-whats-mind |-| Macy Gray worries about backlash to artists who speak out on politics: 'Can't say what's on your mind' |-| 
-FOX |-| https://www.foxnews.com/entertainment/kate-hudson-says-ex-husband-chris-robinson-taught-how-felt-unconditionally-loved |-| Kate Hudson says ex-husband Chris Robinson taught her how it felt to be 'unconditionally loved' |-| 
-FOX |-| https://www.foxnews.com/food-drink/homemade-valentines-day-dinner-recipes |-| 5 homemade Valentine’s Day dinner recipe ideas |-| 
-FOX |-| https://www.foxnews.com/food-drink/healthy-snack-swaps-for-super-bowl |-| Healthy snack swaps to consider ahead of the Super Bowl |-| 
-FOX |-| https://www.foxnews.com/food-drink/super-bowl-dip-recipes-game-day |-| Super Bowl LVII snacking: 5 winning dips to serve for big game |-| 
-FOX |-| https://www.foxnews.com/food-drink/americas-favorite-least-favorite-pizza-topping |-| Happy National Pizza Day: Indulge in America's most liked and disliked pizza toppings |-| 
-FOX |-| https://www.foxnews.com/food-drink/regional-pizzas-st-louis-style-grandma-slice-sicilian-pizza |-| National Pizza Day: 8 regional pizzas you likely haven’t heard of before |-| 
-FOX |-| https://www.foxweather.com/weather-news/severe-weather-threat-tornado-hail-wind-midwest-southeast |-| Tornadoes, large hail, damaging winds threaten South, Ohio Valley as back-to-back storms sweep across US |-| 
-FOX |-| https://www.foxweather.com/weather-news/winter-storms-snow-rockies-plains-upper-midwest |-| Pair of winter storms to dump snow across Rockies, Plains, Upper Midwest |-| 
-FOX |-| https://www.foxweather.com/weather-news/temperature-divide-cold-west-warm-east |-| The great divide: Western US to see below average temperatures while warm air dominates in the East |-| 
-FOX |-| https://www.foxweather.com/extreme-weather/turkey-syria-earthquake-death-toll-rescues |-| Search for survivors winds down after powerful earthquakes kill more than 35,000 in Turkey, Syria |-| 
-FOX |-| https://www.foxweather.com/extreme-weather/north-dakota-northern-lights-video |-| Northern Lights put on dazzling display as they dance across North Dakota sky |-| 
-FOX |-| https://www.foxnews.com/lifestyle/california-cat-shelter-goes-viral-sharing-hilarious-nice-naughty-feline-week |-| California cat shelter goes viral for sharing its hilarious 'nice or naughty' feline of the week |-| 
-FOX |-| https://www.foxnews.com/lifestyle/coffee-virginia-sisters-open-mobile-coffee-shop-strengthening-bond-serve-community |-| Coffee to go: Virginia sisters open mobile coffee shop, strengthening their bond as they serve the community |-| 
-FOX |-| https://www.foxnews.com/us/ocean-city-fire-department-welcomes-new-therapy-dog |-| Ocean City Fire Department welcomes new therapy dog |-| 
-FOX |-| https://www.foxnews.com/video/6320379607112 |-| The Ingraham Angle - Monday, February 13 |-| 
-FOX |-| https://www.foxnews.com/video/6320381177112 |-| Gutfeld! - Monday, February 13 |-| 
-FOX |-| https://www.foxnews.com/video/6320379177112 |-| Hannity - Monday, February 13 |-| 
-FOX |-| https://www.foxnews.com/video/6320378766112 |-| Tucker Carlson Tonight - Monday, February 13 |-| 
-FOX |-| https://www.foxnews.com/video/6320366445112 |-| Jesse Watters Primetime - Monday, February 13 |-| 
-FOX |-| https://www.foxnews.com/us/georgia-cities-compelled-enforce-bans-public-camping-designated-areas-homeless |-| Georgia cities compelled to enforce bans on public camping, could lead to designated areas for the homeless |-| 
-FOX |-| https://www.foxnews.com/politics/north-carolina-attorney-general-wont-defend-state-decision-dispensing-abortion-pills |-| North Carolina attorney general won't defend state restrictions on dispensing abortion pills |-| 
-FOX |-| https://www.foxnews.com/us/michigan-state-shooting-doctor-breaks-down-tears-describing-response |-| Doctor breaks down in tears describing MSU shooting response |-| 
-FOX |-| https://www.foxnews.com/us/bostons-mayor-files-plan-address-citys-skyrocketing-rent |-| Boston's mayor files plan to address city's skyrocketing rent |-| 
+CNN |-| https://edition.cnn.com/2023/02/14/europe/turkey-earthquake-voices-heard-under-rubble-intl-hnk |-| Turkey rescuers say voices are still being heard under the rubble |-| 
+CNN |-| https://edition.cnn.com/2023/02/14/africa/russian-frigate-south-africa-intl |-| Russian frigate docks in South Africa ahead of joint naval drills with China and Russia |-| 
+CNN |-| https://edition.cnn.com/2023/02/14/europe/western-ammo-shortage-ukraine-intl-cmd |-| NATO allies worry about dwindling ammo stockpiles as they try to keep Ukraine's troops firing |-| 
+CNN |-| https://edition.cnn.com/2023/02/14/europe/russia-yevgeny-prigozhin-internet-research-agency-intl |-| Wagner chief admits to founding Russian troll farm sanctioned for meddling in US elections |-| 
+CNN |-| https://edition.cnn.com/2023/02/14/africa/south-africa-bus-crash-intl |-| South Africa bus crash kills 20, dozens taken to hospital |-| 
+CNN |-| https://edition.cnn.com/2023/02/14/china/china-accusation-us-balloons-analysis-mic-intl-hnk |-| China goes on the offensive as balloon fallout threatens to damage credibility |-| 
+CNN |-| https://edition.cnn.com/2023/02/13/asia/new-zealand-cyclone-gabrielle-tuesday-intl-hnk |-| New Zealand declares national emergency as Cyclone Gabrielle pounds North Island |-| 
+CNN |-| https://edition.cnn.com/2023/02/14/world/animals-with-weird-love-lives-scn |-| Meet the animals with love lives more complicated than yours |-| 
+CNN |-| https://edition.cnn.com/2023/02/14/europe/russian-army-prisoners-conscripts-ukraine-intl |-| Exclusive: Russian convicts say defense ministry is sending them from jail to fight as 'cannon fodder' in Ukraine |-| 
+CNN |-| https://edition.cnn.com/2023/02/13/europe/russia-ukraine-vuhledar-donetsk-fiasco-intl |-| 'Like turkeys at a shooting range': Mauling of Russian forces in Donetsk hotspot may signal problems to come |-| 
+CNN |-| https://edition.cnn.com/2023/02/13/europe/ukraine-foreign-medics-russia-target-intl |-| Medical aid workers describe 'targeted' attack that killed American volunteer in Bakhmut |-| 
+CNN |-| https://edition.cnn.com/2023/02/14/china/wang-yi-russia-diplomatic-tour-munich-blinken-intl-hnk |-| China's new top diplomat to visit Russia as tensions with the US mount |-| 
+CNN |-| https://edition.cnn.com/2023/02/11/asia/new-zealand-cyclone-auckland-gabrielle-intl-hnk |-| Cyclone Gabrielle lashes Auckland, as authorities order nationwide state of emergency |-| 
+CNN |-| https://edition.cnn.com/2023/02/09/europe/1000-russian-tanks-destroyed-ukraine-war-intl-hnk-ml |-| Russia may have lost up to half of its operational tank fleet in Ukraine, monitoring group says |-| 
+CNN |-| https://edition.cnn.com/2023/02/08/europe/mh17-russia-ukraine-supply-missile-intl |-| 'Strong indications' Putin decided to give separatists the missile that downed MH17 in 2014, say Dutch investigators |-| 
+CNN |-| https://edition.cnn.com/2023/02/08/europe/zelensky-visit-uk-intl-gbr |-| Zelensky makes 'wings for freedom' plea in surprise UK visit to push case for fighter jets |-| 
+CNN |-| https://edition.cnn.com/2023/02/08/europe/kahramanmaras-turkey-quake-rescue-efforts-intl-cmd |-| Hope and despair as rescuers search for survivors in quake-hit city of Kahramanmaras |-| 
+CNN |-| https://edition.cnn.com/2023/02/06/europe/turkey-syria-earthquake-tuesday-intl-hnk |-| Survivors are still being pulled from the rubble more than 24 hours after Turkey earthquake |-| 
+CNN |-| https://edition.cnn.com/2023/02/07/europe/turkey-earthquake-cold-rescue-intl |-| Hopes wither amid bitter cold as rescuers race to find earthquake survivors in Turkey |-| 
+CNN |-| https://edition.cnn.com/2023/02/13/middleeast/west-bank-nablus-israeli-raid-intl |-| Palestinian man killed and 13 injured in Israeli raid in West Bank, say Palestinian officials |-| 
+CNN |-| https://edition.cnn.com/2023/02/13/middleeast/israelis-knesset-protest-netanyahu-judiciary-intl |-| Thousands protest Netanyahu's plan to weaken Israel's judiciary as president warns of 'social collapse' |-| 
+CNN |-| https://edition.cnn.com/2023/02/13/middleeast/turkey-earthquake-building-construction-intl |-| Turkey cracks down on building contractors as quake death toll reaches grim milestone |-| 
+CNN |-| https://edition.cnn.com/2023/02/13/middleeast/syria-idlib-earthquake-scenes-intl |-| 'I wish we were dead': Syrian quake survivors left to fend for themselves with little help in sight |-| 
+CNN |-| https://edition.cnn.com/2023/02/13/middleeast/turkey-quake-man-daughter-hand-photo-intl |-| 'I couldn't save my daughter': Behind the defining image of the Turkey earthquake |-| 
+CNN |-| https://edition.cnn.com/2023/02/11/middleeast/turkey-syria-earthquake-recovery-intl |-| Quake-hit Turkey and Syria face years of rebuilding. Experts say it didn't have to be this way |-| 
+CNN |-| https://edition.cnn.com/2023/02/10/africa/nairobi-kenya-electric-buses-roam-basigo-spc-intl |-| Electric buses are driving a silent revolution in Nairobi |-| 
+CNN |-| https://edition.cnn.com/2023/02/09/africa/nigeria-invictus-games-intl |-| Nigeria gets Africa's first entry at Prince Harry's Invictus Games for wounded veterans |-| 
+CNN |-| https://edition.cnn.com/2023/02/11/americas/brazil-yanomami-mining-crackdown-intl-latam |-| The Yanomami people lived in harmony with nature. Invaders turned their lives into a fight for survival. |-| 
+CNN |-| https://edition.cnn.com/2023/02/11/americas/toronto-mayor-steps-down-staffer-relationship |-| Toronto mayor steps down after relationship with former staffer |-| 
+CNN |-| https://edition.cnn.com/2023/02/10/americas/brazil-president-lula-interview-intl-latam |-| Lula says Brazil is no more divided than the US as he meets Biden |-| 
+CNN |-| https://edition.cnn.com/2023/02/09/americas/quebec-canada-daycare-bus-crash |-| Flowers, teddy bears and tears as Canada mourns day care deaths in bus crash |-| 
+CNN |-| https://edition.cnn.com/2023/02/13/asia/philippines-china-coast-guard-laser-intl-hnk-ml |-| Philippine Coast Guard says Chinese ship aimed laser at one of its vessels |-| 
+CNN |-| https://edition.cnn.com/travel/article/plane-flying-one-engine |-| Can a plane fly on just one engine? An aviation expert explains |-| 
+CNN |-| https://edition.cnn.com/travel/article/afghanistan- |-| What it's like to travel around Afghanistan now |-| 
+CNN |-| https://edition.cnn.com/travel/article/india-mumbai-delhi-expressway-intl-hnk |-| India opens first phase of longest expressway from Delhi to Mumbai |-| 
+CNN |-| https://edition.cnn.com/travel/article/united-777-plunge-takeoff-hawaii |-| A United 777 made a scary plunge toward the ocean shortly after takeoff |-| 
+CNN |-| https://edition.cnn.com/style/article/ai-weiwei-design-museum-tan |-| Ai Weiwei's new show considers the value of everyday objects |-| 
+CNN |-| https://edition.cnn.com/style/article/10-romantic-paintings |-| 10 romantic paintings that stir feelings of love |-| 
+CNN |-| https://edition.cnn.com/style/article/sam-smith-brit-awards-outfit |-| Look of the Week: Sam Smith's inflatable latex jumpsuit at the Brit Awards |-| 
+CNN |-| https://edition.cnn.com/style/article/nyfw-fall-winter-2023-highlights |-| New York Fashion Week: Celebrity sightings and more highlights from the Fall-Winter 2023 shows |-| 
+CNN |-| https://edition.cnn.com/style/article/hong-kong-auctioned-vanity-car-plates-intl-hnk |-| EL0NMUSK, BAD G1RL: In Hong Kong, personalized license car plates are a coveted luxury |-| 
+CNN |-| https://edition.cnn.com/2023/02/13/weather/weather-news-early-spring-warm-spring-wxn |-| Flowers and trees blooming up to 3 weeks earlier than normal in the Eastern US |-| 
+CNN |-| https://edition.cnn.com/2023/02/12/weather/vermont-lake-champlain-ice-fishing-deaths |-| Lake Champlain ice fishing tournament canceled after 3 fishermen die due to thin lake ice |-| 
+CNN |-| https://edition.cnn.com/2023/02/11/weather/heavy-rain-storms-snow-southeast-weekend |-| Heavy rain, strong winds and snow are possible this weekend across the Southeast |-| 
+CNN |-| https://edition.cnn.com/style/article/china-airport-design-mad-architects |-| 'A floating feather': China's latest airport design unveiled |-| 
+CNN |-| https://edition.cnn.com/style/article/bentley-residences-miami |-| Inside the 'Bentley' of luxury residential towers, opening in Miami |-| 
+CNN |-| https://edition.cnn.com/style/article/5000-year-old-tavern-iraq-archaeology-intl-scli-scn |-| Archaeologists find 5,000-year-old tavern -- including food remains -- in Iraq |-| 
+CNN |-| https://edition.cnn.com/style/article/lily-allen-david-harbour-architectural-digest |-| Inside Lily Allen and David Harbour's 'weird and wonderful' Brooklyn townhouse |-| 
+CNN |-| https://edition.cnn.com/style/article/balkrishna-doshi-architect-death |-| Pritzker Prize-winning architect Balkrishna Doshi dies, age 95 |-| 
+CNN |-| https://edition.cnn.com/2023/02/14/sport/keith-appling-guilty-plea-second-degree-murder-spt-intl |-| Former NBA player Keith Appling pleads guilty to second degree murder |-| 
+CNN |-| https://edition.cnn.com/2023/02/14/sport/shane-steichen-indianapolis-colts-head-coach-spt-intl |-| Indianapolis Colts hire Philadelphia Eagles offensive coordinator Shane Steichen as new head coach |-| 
+CNN |-| https://edition.cnn.com/2023/02/14/sport/patrick-mahomes-disneyland-chiefs-eagles-super-bowl-lvii-spt-intl |-| Two Black quarterbacks in Super Bowl LVII were 'standing on shoulders' of greats before, says Patrick Mahomes |-| 
+CNN |-| https://edition.cnn.com/2023/02/14/tennis/roger-federer-nike-mike-nakajima-tennis-spt-intl |-| Letting Roger Federer leave Nike for Uniqlo was an 'atrocity,' says former Nike tennis director |-| 
+CNN |-| https://edition.cnn.com/travel/article/refugee-sisters-tracy-airplane-reunion-cnnheroes-cec |-| Two sisters just reunited with the mystery woman who gave them $100 on a plane 23 years ago |-| 
+CNN |-| https://edition.cnn.com/2022/12/11/us/cnn-heroes-all-star-tribute-hero-of-the-year |-| Nelly Cheboi, who creates computer labs for Kenyan schoolchildren, is CNN's Hero of the Year |-| 
+CNN |-| https://edition.cnn.com/2022/12/11/us/90-year-old-woman-graduates-college-trnd |-| 71 years after starting college, a 90-year-old woman is graduating |-| 
+CNN |-| https://edition.cnn.com/2022/12/03/world/gary-strieker-nairobi-africa-environment-reporter-obit-remembrance-ctrp |-| 'A remarkable storyteller': Remembering Gary Strieker, who helped establish CNN's presence in Africa |-| 

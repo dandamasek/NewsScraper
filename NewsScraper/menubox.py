@@ -248,11 +248,8 @@ class MyGUI(Data):
         else:
             self.deleteNoNeedNews('REUTERS ')
         self.cleanData()
-    def resize1(self):
-        self.root.geometry(self.root.si)
 
-    def resize2(self):
-        self.root.geometry("900x500")
+
 
     def news_scraper_trigger_title(self):
         self.KeywordsFromBox()
