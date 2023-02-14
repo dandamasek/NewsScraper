@@ -1,13 +1,8 @@
-from ctypes import resize
-from ctypes.wintypes import SIZE
-from email import message
 import tkinter as tk
-from tkinter import BUTT, ttk
-from tkinter import Canvas, LabelFrame, Variable, messagebox
+from tkinter import ttk
+from tkinter import Canvas, LabelFrame, messagebox
 from bs4 import BeautifulSoup
 import requests
-import re
-
 from data import Data
 from web import Web
 
@@ -21,7 +16,7 @@ class MyGUI(Data):
         self.root.geometry("%dx%d" % (self.x,self.y))
         self.root.title("Finding articles")
 
-        self.label = tk.Label(self.root, text="Keywords for finding: (separate them with: , )",font=('Arial',14))
+        self.label = tk.Label(self.root, text="Keywords for finding: (separate with: , ). Empty texbox = will find all articles",font=('Arial',14))
         self.label.pack(padx=10,pady=10)
 
         self.textbox = tk.Text(self.root,height=3,font=('Arial',10))
@@ -157,7 +152,7 @@ class MyGUI(Data):
 
         else:
             self.deleteNoNeedNews('BBC ')
-
+        self.cleanData()
     #all addNews{name} are just for manually adding
     def addNewsHN(self):
         if self.useNewsHN.get() ==1:
@@ -172,7 +167,7 @@ class MyGUI(Data):
             hn.uploadData()
         else:
             self.deleteNoNeedNews('HN ')
-
+        self.cleanData()
 
     def addNewsCNN(self):
         if self.useNewsCNN.get() == 1:
@@ -187,7 +182,7 @@ class MyGUI(Data):
             cnn.uploadData()
         else:
             self.deleteNoNeedNews('CNN ')
-
+        self.cleanData()
 
     def addNewsSEZNAM(self):
         if self.useNewsSEZNAM.get() == 1:
@@ -202,7 +197,7 @@ class MyGUI(Data):
             seznam.uploadData()
         else:
             self.deleteNoNeedNews('SEZNAM ')
-
+        self.cleanData()
 
     def addNewsFOX(self):
         if self.useNewsFOX.get() == 1:
@@ -217,7 +212,7 @@ class MyGUI(Data):
             fox.uploadData()
         else:
             self.deleteNoNeedNews('FOX ')
-
+        self.cleanData()
 
     def addNewsFRANCE24(self):
         if self.useNewsFRANCE24.get() == 1:
@@ -233,7 +228,7 @@ class MyGUI(Data):
             france24.uploadData()
         else:
             self.deleteNoNeedNews('FRANCE24 ')
-
+        self.cleanData()
 
     def addNewsREUTERS(self):
         if self.useNewsREUTERS.get() == 1:
@@ -252,7 +247,7 @@ class MyGUI(Data):
             reuters2.uploadData()
         else:
             self.deleteNoNeedNews('REUTERS ')
-
+        self.cleanData()
     def resize1(self):
         self.root.geometry(self.root.si)
 
@@ -261,15 +256,13 @@ class MyGUI(Data):
 
     def news_scraper_trigger_title(self):
         self.KeywordsFromBox()
-        self.cleanData()
         self.updateData()
         self.news_scraper_by_title()
         
         keytext = ""
         for index, i in enumerate(self.keyword_data_from_news):
             keytext += str(index+1)+": "+i[0]+" "+i[1]+"\n"
-            #tk.Label(self.myFrame,text = keytext, font=("Arial",10),).pack()
-    
+           
         self.keywordlabel.config(text=keytext)
         self.x += 1;
         self.y += 1;
@@ -277,14 +270,12 @@ class MyGUI(Data):
         
     def news_scraper_trigger_text(self):
         self.KeywordsFromBox()
-        self.cleanData()
         self.updateData()
         self.news_scraper_by_text()
           
         keytext = ""
         for index, i in enumerate(self.keyword_data_from_news):
-            keytext += str(index+1)+": "+i[0]+" "+i[1]+"\n"
-            #tk.Label(self.myFrame,text = keytext, font=("Arial",10),).pack()
+            keytext += str(index+1)+": "+i[0]+" "+i[1]+"\n"        
     
         self.keywordlabel.config(text=keytext)
         self.x += 1;

@@ -1,12 +1,6 @@
-import requests
-import re
 from openpyxl import Workbook, load_workbook
-import re
 from web import Web
-import urllib3
 from newspaper import Article
-from textblob import TextBlob
-from requests_html import HTMLSession
 from rake_nltk import Rake
 
 
@@ -144,20 +138,11 @@ class Data(Web):
                     keyword_list_text.append(title[3])
 
         self.keyword_data_from_news = zip(keyword_list_type,keyword_list_headline,keyword_list_url,keyword_list_text)   
-
-        
-
         #delete duplicity, duplicate to none
         self.keyword_data_from_news = dict.fromkeys(self.keyword_data_from_news)
         #delete none from list
         self.keyword_data_from_news = list(filter(None,self.keyword_data_from_news))
-        
-
-
-        #Prints the titles of the article that contains keyword
-        #print(f'\n------- Total mentions in title of keywords in news: {len(self.keyword_data_from_news)}')
-        #for index, i in enumerate(self.keyword_data_from_news):
-        #    print(index+1,": ",i[0],' ',i[1],' ',i[2],' ',i[3])
+     
 
     def news_scraper_by_text(self):
         keyword_list_headline = []
@@ -173,7 +158,6 @@ class Data(Web):
                 key.lower()
 
             #find keyword
-
             keywords = title[3].split("|")
             for textkw in keywords:
                 for choose_keyword in self.keywords:
