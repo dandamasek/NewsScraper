@@ -1,6 +1,10 @@
 import requests
 import re
-
+import urllib3
+from newspaper import Article
+from textblob import TextBlob
+from requests_html import HTMLSession
+from rake_nltk import Rake
 
 class Web:
     url_link = 'https://www.bbc.com/news'
@@ -117,6 +121,12 @@ class Web:
                             except:
                                 news_file.write("ERROR-CHAR"+" |-| ")
 
+        
+
+   
+        
+
+       
 
 
     

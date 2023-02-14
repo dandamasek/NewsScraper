@@ -1,21 +1,24 @@
 import requests
 import re
 from openpyxl import Workbook, load_workbook
-
 import re
 from web import Web
+import urllib3
+from newspaper import Article
+from textblob import TextBlob
+from requests_html import HTMLSession
+from rake_nltk import Rake
 
 
 class Data(Web):
-    data_from_news = [[]]*3
+    #data_from_news = [[]]*3
     news_vector = []
-    keyword_data_from_news = [[]]*3
+    #keyword_data_from_news = [[]]*3
 
     keywords = []
 
     def __init__(self, txt_save_data):
         self.txt_save_data = txt_save_data 
-
 
     def addNewsToData(self,news):
         self.news_vector.append(news)
@@ -34,26 +37,51 @@ class Data(Web):
         #delete all lines without full information
         f = open(self.txt_save_data,"w")
         for line in lines:
-            va_line = line.split('|-|')
+            va_line = line.split(' |-| ')
             #lenght of data and second is real url
             if len(va_line) >= 4 and va_line[1].find("https:") != -1:
                 f.write(line)
 
         f.close()
+
     def updateData(self):
         type_list = []
         headlines_list = []
         urls_list = []
+        text_list = []
 
         with open(str(self.txt_save_data)) as file:
             for line in file:
-                line = line.split('|-|')
+                line = line.split(' |-| ')
                 urls_list.append(line[1])
                 headlines_list.append(line[2])
                 type_list.append(line[0])
 
-        self.data_from_news = zip(type_list,headlines_list,urls_list)
+        #adding textkeywords
+        for url in urls_list:
+            try:
+                artice = Article(url)
+                artice.download()
+                artice.parse()
+                artice.nlp()
 
+                article_text = artice.text
+
+
+                r = Rake()
+                r.extract_keywords_from_text(article_text)
+                keywords_text = r.get_ranked_phrases_with_scores()
+                
+                keylist = ""
+                for index, key in enumerate(keywords_text):
+                    if index <= 5 and index < len(keywords_text)-1:
+                        keylist += key[1] + " | " 
+                    
+                text_list.append(keylist)
+            except:
+                text_list.append("ERROR")
+                
+        self.data_from_news = zip(type_list,headlines_list,urls_list,text_list)
 
     def writeData(self):
         for x in self.data_from_news:
@@ -95,13 +123,13 @@ class Data(Web):
         wb.save(self.excel_save_data)
 
 
-    def news_scraper(self):
+    def news_scraper_by_title(self):
         keyword_list_headline = []
         keyword_list_url = []
         keyword_list_type = []
-        self.keyword_data_from_news = []
+        keyword_list_text = []
         # Goes through the list and searches fot the keyword
-        for i, title in enumerate(self.data_from_news):
+        for title in self.data_from_news:
 
             #keywords lower
             for key in self.keywords:
@@ -113,21 +141,57 @@ class Data(Web):
                     keyword_list_type.append(title[0])
                     keyword_list_headline.append(title[1])
                     keyword_list_url.append(title[2])
+                    keyword_list_text.append(title[3])
 
-        self.keyword_data_from_news = zip(keyword_list_type,keyword_list_headline,keyword_list_url)   
+        self.keyword_data_from_news = zip(keyword_list_type,keyword_list_headline,keyword_list_url,keyword_list_text)   
+
+        
+
+        #delete duplicity, duplicate to none
+        self.keyword_data_from_news = dict.fromkeys(self.keyword_data_from_news)
+        #delete none from list
+        self.keyword_data_from_news = list(filter(None,self.keyword_data_from_news))
+        
+
+
+        #Prints the titles of the article that contains keyword
+        #print(f'\n------- Total mentions in title of keywords in news: {len(self.keyword_data_from_news)}')
+        #for index, i in enumerate(self.keyword_data_from_news):
+        #    print(index+1,": ",i[0],' ',i[1],' ',i[2],' ',i[3])
+
+    def news_scraper_by_text(self):
+        keyword_list_headline = []
+        keyword_list_url = []
+        keyword_list_type = []
+        keyword_list_text = []
+        self.keyword_data_from_news = []
+        # Goes through the list and searches fot the keyword
+        for i, title in enumerate(self.data_from_news):
+
+            #keywords lower
+            for key in self.keywords:
+                key.lower()
+
+            #find keyword
+
+            keywords = title[3].split("|")
+            for textkw in keywords:
+                for choose_keyword in self.keywords:
+                    if textkw.find(choose_keyword) != -1:
+                        keyword_list_type.append(title[0])
+                        keyword_list_headline.append(title[1])
+                        keyword_list_url.append(title[2])
+                        keyword_list_text.append(title[3])
+
+        self.keyword_data_from_news = zip(keyword_list_type,keyword_list_headline,keyword_list_url,keyword_list_text)   
         
         #delete duplicity, duplicate to none
         self.keyword_data_from_news = dict.fromkeys(self.keyword_data_from_news)
         #delete none from list
         self.keyword_data_from_news = list(filter(None,self.keyword_data_from_news))
 
-        #Prints the titles of the article that contains keyword
-        print(f'\n------- Total mentions of keywords in news: {len(self.keyword_data_from_news)}')
-        for index, i in enumerate(self.keyword_data_from_news):
-            print(index+1,": ",i[0],' ',i[1],' ',i[2])
-   
-    
-          
+
+        
 
 
 

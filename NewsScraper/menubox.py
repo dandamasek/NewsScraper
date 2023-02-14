@@ -69,13 +69,20 @@ class MyGUI(Data):
         #buttons grid
         self.buttonframe = tk.Frame(self.root)
         self.buttonframe.columnconfigure(0, weight=1)
+        self.buttonframe.columnconfigure(1, weight=1)
 
-        self.btn1 = tk.Button(self.buttonframe, text="Show matched articles" , font=('Arial',12),command = self.news_scraper_trigger)
+
+        self.btn1 = tk.Button(self.buttonframe, text="Show matched articles by articles" , font=('Arial',12),command = self.news_scraper_trigger_title)
         self.btn1.grid(row=0,column=0, sticky=tk.W+tk.E)
         
         self.btn2 = tk.Button(self.buttonframe, text="Save all articles to excel" , font=('Arial',12),command = self.SaveToExcel_trigger)
         self.btn2.grid(row=0,column=1, sticky=tk.W+tk.E)
+
+        self.btn3 = tk.Button(self.buttonframe, text="Show matched articles by text" , font=('Arial',12),command = self.news_scraper_trigger_text)
+        self.btn3.grid(row=1,column=0, sticky=tk.W+tk.E)
+
         self.buttonframe.pack(fill='y')
+
 
         self.label2 = tk.Label(self.root, text="Matching articles by keywords",font=('Arial',14))
         self.label2.pack(padx=30,pady=10)
@@ -98,7 +105,7 @@ class MyGUI(Data):
         self.mycanvas.bind('<Configure>', lambda e: self.mycanvas.configure(scrollregion = self.mycanvas.bbox('all'))) 
         self.wrapper.pack(fill="both", expand="yes",padx=10,pady=10)
 
-        self.keywordlabel = tk.Label(self.myFrame,text="ssss")
+        self.keywordlabel = tk.Label(self.myFrame,text="")
         self.keywordlabel.pack()
 
         self.root.protocol("WM_DELETE_WINDOW",self.on_closing)
@@ -166,6 +173,7 @@ class MyGUI(Data):
         else:
             self.deleteNoNeedNews('HN ')
 
+
     def addNewsCNN(self):
         if self.useNewsCNN.get() == 1:
             request = requests.get('https://edition.cnn.com/world', headers=self.headers)
@@ -179,6 +187,7 @@ class MyGUI(Data):
             cnn.uploadData()
         else:
             self.deleteNoNeedNews('CNN ')
+
 
     def addNewsSEZNAM(self):
         if self.useNewsSEZNAM.get() == 1:
@@ -194,6 +203,7 @@ class MyGUI(Data):
         else:
             self.deleteNoNeedNews('SEZNAM ')
 
+
     def addNewsFOX(self):
         if self.useNewsFOX.get() == 1:
             request = requests.get('https://www.foxnews.com/', headers=self.headers)
@@ -208,6 +218,7 @@ class MyGUI(Data):
         else:
             self.deleteNoNeedNews('FOX ')
 
+
     def addNewsFRANCE24(self):
         if self.useNewsFRANCE24.get() == 1:
             request = requests.get('https://www.france24.com/en/live-news/', headers=self.headers)
@@ -218,9 +229,11 @@ class MyGUI(Data):
 
             france24 = Web('FRANCE24','https://www.france24.com/en/live-news/','div',class_ins,webPart,'="/','https://www.france24.com/','</p>','',soup)
             self.addNewsToData(france24)
+            self.cleanData()
             france24.uploadData()
         else:
             self.deleteNoNeedNews('FRANCE24 ')
+
 
     def addNewsREUTERS(self):
         if self.useNewsREUTERS.get() == 1:
@@ -246,32 +259,53 @@ class MyGUI(Data):
     def resize2(self):
         self.root.geometry("900x500")
 
-    def news_scraper_trigger(self):
-       #self.resize1()
+    def news_scraper_trigger_title(self):
         self.KeywordsFromBox()
         self.cleanData()
         self.updateData()
-        self.news_scraper()
+        self.news_scraper_by_title()
         
-       
-        #tk.Label(self.myFrame,text = '\n------- Total mentions of keywords in news: '+str(len(self.keyword_data_from_news))).pack()
         keytext = ""
         for index, i in enumerate(self.keyword_data_from_news):
             keytext += str(index+1)+": "+i[0]+" "+i[1]+"\n"
             #tk.Label(self.myFrame,text = keytext, font=("Arial",10),).pack()
     
         self.keywordlabel.config(text=keytext)
-
-        #adhoc
         self.x += 1;
         self.y += 1;
         self.root.geometry("%dx%d" % (self.x,self.y))
         
-
-        
+    def news_scraper_trigger_text(self):
+        self.KeywordsFromBox()
+        self.cleanData()
+        self.updateData()
+        self.news_scraper_by_text()
+          
+        keytext = ""
+        for index, i in enumerate(self.keyword_data_from_news):
+            keytext += str(index+1)+": "+i[0]+" "+i[1]+"\n"
+            #tk.Label(self.myFrame,text = keytext, font=("Arial",10),).pack()
+    
+        self.keywordlabel.config(text=keytext)
+        self.x += 1;
+        self.y += 1;
+        self.root.geometry("%dx%d" % (self.x,self.y))      
 
     def on_closing(self):
         if messagebox.askyesno(title="Alert",message = "Are you sure?"):
             self.root.destroy()
+
+    def updateTXT(self):
+        type_list = []
+        headlines_list = []
+        urls_list = []
+        text_list = []
+
+        with open(str(self.txt_save_data)) as file:
+            for line in file:
+                line = line.split(' |-| ')
+                urls_list.append(line[1])
+                headlines_list.append(line[2])
+                type_list.append(line[0])
 
 
