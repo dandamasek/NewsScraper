@@ -1,5 +1,6 @@
 import re
-
+from newspaper import Article
+from rake_nltk import Rake
 
 class Web:
     url_link = 'https://www.bbc.com/news'
@@ -33,13 +34,13 @@ class Web:
         odkaz = str("")
         self.urls_list = []
         self.headlines_list = []
-        news_file = open(self.txt_save_data,'a+')
+        news_file = open(self.txt_save_data,'w') #a+ necha
         next_nonempty_string = bool(0)
 
         for l in self.soup.findAll(self.f_class_html , self.s_class_html):
  
            pomtext = str("")
-       
+           urlfortext = ""
            for slovoVHtml in str(l):
                 pomtext += str(slovoVHtml)
 
@@ -54,8 +55,6 @@ class Web:
                print("mezera")
 
            for url in urlOdkaz:
-                #print(url)
-
                 #finding url by parts of web
                 for webParts in self.webPart:
                     new_url = url
@@ -65,9 +64,47 @@ class Web:
                        #webPart could contain same information as s_url_find duplicity of url
                        if webParts.find(self.s_url_find) != -1:
                             news_file.write(webParts+new_url[1]+" |-| ")  
+                            urlfortext = webParts+new_url[1]
+                            print("Nacitni dat ze stranky")
+                            #adding textkeywords
+                            try:
+                                artice = Article(urlfortext)
+                                artice.download()
+                                artice.parse()
+                                artice.nlp()
+
+                                r = Rake()
+                                r.extract_keywords_from_text(artice.text)
+                                keywords_text = r.get_ranked_phrases_with_scores()
+                
+                                for index, key in enumerate(keywords_text):
+                                    if index <= 5 and index < len(keywords_text)-1:
+                                        news_file.write(key[1]+" |-| ")  
+                                        
+                            except:
+                                news_file.write("ERROR"+" |-| ") 
                        else:
+                            print("Nacitni dat ze stranky")
                             news_file.write(self.s_url_find+webParts+new_url[1]+" |-| ")  
-                       #print(url,"\n")
+                            urlfortext = self.s_url_find+webParts+new_url[1]
+
+                            #adding textkeywords
+                            try:
+                                artice = Article(urlfortext)
+                                artice.download()
+                                artice.parse()
+                                artice.nlp()
+
+                                r = Rake()
+                                r.extract_keywords_from_text(artice.text)
+                                keywords_text = r.get_ranked_phrases_with_scores()
+                
+                                for index, key in enumerate(keywords_text):
+                                    if index <= 5 and index < len(keywords_text)-1:
+                                        news_file.write(key[1]+" |-| ")  
+                                        
+                            except:
+                                news_file.write("ERROR"+" |-| ") 
                        
                 headline_after_noneline = 0
 
@@ -116,6 +153,7 @@ class Web:
                             except:
                                 news_file.write("ERROR-CHAR"+" |-| ")
 
+                        
         
 
    

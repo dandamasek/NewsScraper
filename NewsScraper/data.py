@@ -8,7 +8,6 @@ class Data(Web):
     #data_from_news = [[]]*3
     news_vector = []
     #keyword_data_from_news = [[]]*3
-
     keywords = []
 
     def __init__(self, txt_save_data):
@@ -43,37 +42,19 @@ class Data(Web):
         headlines_list = []
         urls_list = []
         text_list = []
-
+        text_help_prom = ""
         with open(str(self.txt_save_data)) as file:
             for line in file:
                 line = line.split(' |-| ')
                 urls_list.append(line[1])
                 headlines_list.append(line[2])
                 type_list.append(line[0])
-
-        #adding textkeywords
-        for url in urls_list:
-            try:
-                artice = Article(url)
-                artice.download()
-                artice.parse()
-                artice.nlp()
-
-                article_text = artice.text
-
-
-                r = Rake()
-                r.extract_keywords_from_text(article_text)
-                keywords_text = r.get_ranked_phrases_with_scores()
                 
-                keylist = ""
-                for index, key in enumerate(keywords_text):
-                    if index <= 5 and index < len(keywords_text)-1:
-                        keylist += key[1] + " | " 
-                    
-                text_list.append(keylist)
-            except:
-                text_list.append("ERROR")
+                text_help_prom = ""
+                for indexLine in range(3,len(line)-1):
+                    text_help_prom += line[indexLine]
+
+                text_list.append(text_help_prom)
                 
         self.data_from_news = zip(type_list,headlines_list,urls_list,text_list)
 
@@ -149,26 +130,26 @@ class Data(Web):
         keyword_list_url = []
         keyword_list_type = []
         keyword_list_text = []
+        
         self.keyword_data_from_news = []
         # Goes through the list and searches fot the keyword
         for i, title in enumerate(self.data_from_news):
-
+            
+            keywords = ""
             #keywords lower
             for key in self.keywords:
                 key.lower()
 
-            #find keyword
-            keywords = title[3].split("|")
-            for textkw in keywords:
-                for choose_keyword in self.keywords:
-                    if textkw.find(choose_keyword) != -1:
-                        keyword_list_type.append(title[0])
-                        keyword_list_headline.append(title[1])
-                        keyword_list_url.append(title[2])
-                        keyword_list_text.append(title[3])
+            #find keywords from txt
+
+            for choose_keyword in self.keywords:
+                if title[3].find(choose_keyword) != -1:
+                    keyword_list_type.append(title[0])
+                    keyword_list_headline.append(title[1])
+                    keyword_list_url.append(title[2])
+                    keyword_list_text.append(title[3])   
 
         self.keyword_data_from_news = zip(keyword_list_type,keyword_list_headline,keyword_list_url,keyword_list_text)   
-        
         #delete duplicity, duplicate to none
         self.keyword_data_from_news = dict.fromkeys(self.keyword_data_from_news)
         #delete none from list
