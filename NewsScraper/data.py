@@ -1,7 +1,5 @@
-from openpyxl import Workbook, load_workbook
+from openpyxl import Workbook
 from web import Web
-from newspaper import Article
-from rake_nltk import Rake
 
 
 class Data(Web):
