@@ -104,7 +104,7 @@ class Web:
                                         news_file.write(key[1]+" |-| ")  
                                         
                             except:
-                                news_file.write("ERROR"+" |-| ") 
+                                news_file.write("") 
                        
                 headline_after_noneline = 0
 
@@ -151,7 +151,14 @@ class Web:
                             try:
                                 news_file.write(pre_url_updated[0]+" |-| ")
                             except:
-                                news_file.write("ERROR-CHAR"+" |-| ")
+                                problematicstr = pre_url_updated[0]
+                                for charec in problematicstr:
+                                    try:
+                                        news_file.write(charec)
+                                    except:
+                                        news_file.write("")
+                                news_file.write(" |-| ")
+
 
                         
         
