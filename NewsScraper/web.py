@@ -3,6 +3,10 @@ from newspaper import Article
 from rake_nltk import Rake
 
 class Web:
+    """
+    Store data from web and function upload 
+    """
+
     url_link = 'https://www.bbc.com/news'
     f_class_html = 'div'
     s_class_html = class_='gs-c-promo-body'
@@ -82,7 +86,7 @@ class Web:
                                         news_file.write(key[1]+" |-| ")  
                                         
                             except:
-                                news_file.write("ERROR"+" |-| ") 
+                                news_file.write("") 
                        else:
                             print("Nacitni dat ze stranky")
                             news_file.write(self.s_url_find+webParts+new_url[1]+" |-| ")  

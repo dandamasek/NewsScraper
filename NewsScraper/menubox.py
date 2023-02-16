@@ -7,7 +7,10 @@ from data import Data
 from web import Web
 
 class MyGUI(Data):
-    
+    """
+    Application for user
+    """
+
     def __init__(self):
         #later do dynamic not like this
         self.x = 900

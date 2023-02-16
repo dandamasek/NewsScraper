@@ -3,9 +3,12 @@ from web import Web
 
 
 class Data(Web):
-    #data_from_news = [[]]*3
+
+    """
+    Operation with webs data as headline, text and url. And funtion for GUI
+    """
+
     news_vector = []
-    #keyword_data_from_news = [[]]*3
     keywords = []
 
     def __init__(self, txt_save_data):
