@@ -10,7 +10,7 @@ Aplikace slouží k hledání článků z vybráných webových novin podle "key
 
 ### Možnosti rozšíření
 1. Přidat více webových novin
-2. Lepší vyhledávání v textu ne pomocí nejčastějších slov, či slovních spojení ale celého textu
+2. Lepší vyhledávání v textu ne pomocí nejčastějších slov, či slovních spojení ale celého textu (multithreading)
 3. Rychlejší načítání dat
 4. Místo txt pro ukladani dat využít databázi
 5. Rake nedostatečná knihovna použít jinou metodu
